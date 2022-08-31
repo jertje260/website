@@ -46,21 +46,28 @@ body {
     overflow:hidden;
     border-radius: 50%;
     margin-bottom: 0.5em;
+    max-height: 30em;
+    max-width: 30em;
 }
 
 a {
     color: lightgray
 }
+i {
+    font-size: 30px;
+}
 footer{
     position: absolute;
     width: 100%;
     bottom: 0;
-    font-size: 30px;
-    color: lightgray
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
 }
-.footer {
-    padding:1em;
+
+footer>div{
+    margin: 1em
 }
-.footer.a{
+footer>*>a{
     padding: 0.5em;
 }
