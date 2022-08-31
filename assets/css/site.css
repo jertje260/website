@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Fira Code";
+    src: url("/assets/fonts/Fira\ Code\ Regular\ Nerd\ Font\ Complete.otf");
+}
+
+@font-face {
+    font-family: "Fira Code";
+    src: url("/assets/fonts/Fira\ Code\ Bold\ Nerd\ Font\ Complete.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Fira Code";
+    src: url("/assets/fonts/Fira\ Code\ Light\ Nerd\ Font\ Complete.otf");
+    font-weight: lighter;
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+    font-family: "Fira Code", monospace;
+    margin:0;
+    text-rendering: optimizeLegibility;
+    font-variant-ligatures: normal;
+    cursor: default;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    margin: 2em;
+    position: relative;
+}
+.profile{
+    width: 100%;
+    height: 100%;
+    max-height: 30em;
+    max-width: 30em;
+    margin:0
+
+}
+
+.profile-container{
+    overflow:hidden;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: lightgray
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 30px;
+    color: lightgray
+}
+.footer {
+    padding:1em;
+}
+.footer.a{
+    padding: 0.5em;
+}
