@@ -14,4 +14,3 @@ steps:
     globExpressions: |
       index.html
       assets/**
-    filesAcl: 'public-read'
